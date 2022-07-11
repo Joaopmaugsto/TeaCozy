@@ -1,0 +1,141 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0;
+}
+
+/* Header Section */
+
+.header {
+    display: block;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 69px;
+    top: 0px;
+    border: 1px solid seashell;
+}
+
+.logo {
+    height: 50px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.nav-bar {
+    float: right;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.nav-bar a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.nav-bar a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    text-decoration: underline;
+    color: white;
+}
+
+.mission-container {
+    display: flex;
+    background-image: url('../img/img-mission-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    max-width: 1200px;
+    margin: 40px auto 40px auto;
+}
+
+.text-over {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+/* Featured Section */
+
+#featured {
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.trend-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.trend-container img {
+    height: 200px;
+    width: 300px;
+    padding: 10px 12px;
+}
+
+.banner {
+    height: 500px;
+    width: 1200px;
+    margin: 40px auto auto auto;
+    padding-top: 85px;
+    background-image: url('../img/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text-top {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin: -100px;
+    margin-bottom: auto;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1050px;
+    margin: 15px auto auto auto;
+}
+
+.box {
+    height: 300px;
+    padding: 20px;
+    margin-bottom: auto;
+    flex-basis: 30%;
+    box-sizing: border-box;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* Footer Style */
+
+footer {
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.copyright {
+    text-align: left;
+    padding-left: 20px;
+    color: gray;
+}
